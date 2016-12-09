@@ -206,7 +206,7 @@ static int lookup_table_orientation = 0;
 static IBusKeymap *keymap = NULL;
 static gboolean word_commit = FALSE;
 static gboolean auto_reorder = TRUE;
-static int initial_input_mode = INPUT_MODE_DIRECT;
+static int initial_input_mode = INPUT_MODE_HANGUL;
 
 static glong
 ucschar_strlen (const ucschar* str)
